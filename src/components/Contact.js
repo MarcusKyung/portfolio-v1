@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function Contact() {
   return (
-    <Container style={{ marginTop: "20px"}}>
+    <Container style={{ marginTop: "30px"}} id="contact">
       <Row>
       <Col />
       <Col xs={12}>

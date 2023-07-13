@@ -17,12 +17,9 @@ const BaloonOnHover = styled(Card)`
   }
 `;
 
-
-
-
 export default function Projects() {
   return (
-    <Container id="projects">
+    <Container style={{ marginBottom: '30px' }} id="projects">
       <Row>
         <h1 style={{ textAlign: 'center', marginTop: '15px', marginBottom: '15px', textDecoration: 'underline' }}>Recent Projects:</h1>
       </Row>

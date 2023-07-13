@@ -8,6 +8,7 @@ const HeroContainer = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family:'Open Sans';
 `;
 
 const EnlargeOnHover = styled.h2`
@@ -24,7 +25,7 @@ export default function Hero() {
     <React.Fragment>
       <HeroContainer id="home">
         <span>
-          <h1 className="typing-animation"style={{ textDecoration: "underline" }}>Marcus Kyung</h1>
+          <h1 className="typing-animation"style={{ textDecoration: "underline", fontSize: "3em" }}>&lt; marcuskyung &gt;</h1>
           <EnlargeOnHover>Front End Developer.</EnlargeOnHover>
           <EnlargeOnHover>Project Manager.</EnlargeOnHover>
           <EnlargeOnHover>Developer.</EnlargeOnHover>
