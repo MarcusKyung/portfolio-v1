@@ -21,7 +21,7 @@ export default function Contact() {
             <label htmlFor="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style={{ width: "100%", padding: "12px", border: "1px solid #ccc", borderRadius: "4px", boxSizing: "border-box", marginTop: "6px", marginBottom: "16px", resize: "vertical" }}></textarea>
 
-            <input type="submit" value="Submit" style={{ backgroundColor: "#2d6efd", color: "white", padding: "12px 20px", border: "none", borderRadius: "4px", cursor: "pointer" }} />
+            <input type="submit" value="Submit" style={{ backgroundColor: "#0D6EFD", color: "white", padding: "12px 20px", border: "none", borderRadius: "4px", cursor: "pointer" }} />
 
           </form>
         </div>

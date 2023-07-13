@@ -14,7 +14,7 @@ export default function Experience() {
       <ExperienceContainer id="experience">
         <Container>
           <Row>
-            <h1 style={{ textAlign: 'center', marginTop: '30px', marginBottom: '30px', textDecoration: 'underline' }}>Recent Projects:</h1>
+            <h1 style={{ color: '#0D6EFD', textAlign: 'center', marginTop: '30px', marginBottom: '30px', textDecoration: 'underline' }}>&lt; Work Experience &gt;</h1>
           </Row>
           <Row>
             <Col />
@@ -41,7 +41,7 @@ export default function Experience() {
             <Col />
           </Row>
           <Row>
-            <h1 style={{ textAlign: 'center', marginTop: '10px', marginBottom: '30px', textDecoration: 'underline' }}>Education:</h1>
+            <h1 style={{ color: '#0D6EFD', textAlign: 'center', marginTop: '10px', marginBottom: '30px', textDecoration: 'underline' }}>&lt; Education &gt;</h1>
           </Row>
           <Row>
           <Col />

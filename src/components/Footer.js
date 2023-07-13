@@ -36,12 +36,12 @@ export default function Footer() {
             <ButtonLink href="/">Resume</ButtonLink>
           </Col>
           <Col>
-            <ButtonLink href="https://www.linkedin.com/">
+            <ButtonLink href="https://www.linkedin.com/in/marcuskyung/">
               <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </ButtonLink>
           </Col>
           <Col>
-            <ButtonLink href="https://github.com/">
+            <ButtonLink href="https://github.com/MarcusKyung">
               <FontAwesomeIcon icon={faGithub} /> GitHub
             </ButtonLink>
           </Col>

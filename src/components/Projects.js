@@ -21,7 +21,7 @@ export default function Projects() {
   return (
     <Container style={{ marginBottom: '30px' }} id="projects">
       <Row>
-        <h1 style={{ textAlign: 'center', marginTop: '15px', marginBottom: '15px', textDecoration: 'underline' }}>Recent Projects:</h1>
+        <h1 style={{ color: '#0D6EFD', textAlign: 'center', marginTop: '15px', marginBottom: '15px', textDecoration: 'underline' }}>&lt; Recent Projects &gt;</h1>
       </Row>
       <Row className="justify-content-center">
         <BaloonOnHover style={{ width: '25rem', marginRight: '5px', marginLeft: '5px' }}>
