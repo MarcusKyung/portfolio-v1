@@ -24,7 +24,7 @@ export default function Hero() {
     <React.Fragment>
       <HeroContainer id="home">
         <span>
-          <h1 style={{ fontSize: "2em", textDecoration: "underline" }}>Marcus Kyung</h1>
+          <h1 className="typing-animation"style={{ textDecoration: "underline" }}>Marcus Kyung</h1>
           <EnlargeOnHover>Front End Developer.</EnlargeOnHover>
           <EnlargeOnHover>Project Manager.</EnlargeOnHover>
           <EnlargeOnHover>Developer.</EnlargeOnHover>

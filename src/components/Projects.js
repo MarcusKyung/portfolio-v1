@@ -24,9 +24,7 @@ export default function Projects() {
   return (
     <Container id="projects">
       <Row>
-        <h1 style={{ textAlign: 'center', marginTop: '15px', marginBottom: '15px', textDecoration: 'underline' }}>
-          Projects:
-        </h1>
+        <h1 style={{ textAlign: 'center', marginTop: '15px', marginBottom: '15px', textDecoration: 'underline' }}>Recent Projects:</h1>
       </Row>
       <Row className="justify-content-center">
         <BaloonOnHover style={{ width: '25rem', marginRight: '5px', marginLeft: '5px' }}>
@@ -75,19 +73,6 @@ export default function Projects() {
           <Card.Img variant="top" src={discordbot} style={{ marginTop: "10px" }}/>
           <Card.Body>
             <Card.Title>DiscordBot</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </Card.Text>
-            <div className="d-grid gap-2">
-              <Button>View Project</Button>
-              <Button>View Source Code</Button>
-            </div>
-          </Card.Body>
-        </BaloonOnHover>
-        <BaloonOnHover style={{ width: '25rem', marginRight: "5px", marginLeft: "5px" }}>
-          <Card.Img variant="top" src={TravelPlanner} style={{ marginTop: "10px" }}/>
-          <Card.Body>
-            <Card.Title>Travel Planner</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </Card.Text>
