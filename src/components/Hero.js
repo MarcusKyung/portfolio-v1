@@ -1,16 +1,35 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const HeroContainer = styled.div`
+  background-color: #f8f9fa;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+`;
+
+const EnlargeOnHover = styled.h2`
+  font-size: 2em;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+`;
 
 export default function Hero() {
   return (
     <React.Fragment>
-      <div id="home" style={{ backgroundColor: "lightGrey", height: "100vh", display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center" }}>
+      <HeroContainer id="home">
         <span>
-          <h1 style={{ fontSize: "24px", textDecoration: "underline"}}>Marcus Kyung:</h1>
-          <h2>Front End Developer.</h2>
-          <h2>Project Manager.</h2>
-          <h2>Developer.</h2>
+          <h1 style={{ fontSize: "2em", textDecoration: "underline" }}>Marcus Kyung</h1>
+          <EnlargeOnHover>Front End Developer.</EnlargeOnHover>
+          <EnlargeOnHover>Project Manager.</EnlargeOnHover>
+          <EnlargeOnHover>Developer.</EnlargeOnHover>
         </span>
-      </div>
+      </HeroContainer>
     </React.Fragment>
-  )
+  );
 }
