@@ -9,6 +9,7 @@ import TravelPlanner from '../img/TravelPlanner.png';
 import twitterbot from '../img/twitterbot.png';
 import recipe from '../img/recipe.png';
 import styled from 'styled-components';
+import ButtonLink from 'react-bootstrap/Button'
 
 
 const BaloonOnHover = styled(Card)`
@@ -33,7 +34,8 @@ export default function Projects() {
             </Card.Text>
             <div className="d-grid gap-2">
               <Button>View Project</Button>
-              <Button>View Source Code</Button>
+              <ButtonLink href="https://github.com/MarcusKyung/The_One_API.Solution" target="_blank">View Source Code</ButtonLink>
+
             </div>
           </Card.Body>
         </BaloonOnHover>
@@ -46,7 +48,7 @@ export default function Projects() {
             </Card.Text>
             <div className="d-grid gap-2">
               <Button>View Project</Button>
-              <Button>View Source Code</Button>
+              <ButtonLink href="https://github.com/MarcusKyung/F1DriverAPI.Solution" target="_blank">View Source Code</ButtonLink>
             </div>
           </Card.Body>
         </BaloonOnHover>
@@ -59,7 +61,7 @@ export default function Projects() {
             </Card.Text>
             <div className="d-grid gap-2">
               <Button>View Project</Button>
-              <Button>View Source Code</Button>
+              <ButtonLink href="https://github.com/MarcusKyung/RecipeBox2.Solution" target="_blank">View Source Code</ButtonLink>
             </div>
           </Card.Body>
         </BaloonOnHover>
@@ -75,7 +77,7 @@ export default function Projects() {
             </Card.Text>
             <div className="d-grid gap-2">
               <Button>View Project</Button>
-              <Button>View Source Code</Button>
+              <ButtonLink href="https://github.com/MarcusKyung/Valtteri-BOTtas" target="_blank">View Source Code</ButtonLink>
             </div>
           </Card.Body>
         </BaloonOnHover>
@@ -88,7 +90,7 @@ export default function Projects() {
             </Card.Text>
             <div className="d-grid gap-2">
               <Button>View Project</Button>
-              <Button>View Source Code</Button>
+              <ButtonLink href="https://github.com/MarcusKyung/trip-planner" target="_blank">View Source Code</ButtonLink>
             </div>
           </Card.Body>
         </BaloonOnHover>
