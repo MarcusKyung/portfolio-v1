@@ -20,7 +20,7 @@ function Header() {
           </Nav>
         </Container>
       </Navbar>
-      </React.Fragment>
+    </React.Fragment>
   );
 }
 

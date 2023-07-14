@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ButtonLink from 'react-bootstrap/Button'
 
 const HeroContainer = styled.div`
   background-color: #f8f9fa;
@@ -27,11 +28,13 @@ export default function Hero() {
     <React.Fragment>
       <HeroContainer id="home">
         <span>
-          <h1 className="typing-animation"style={{ textDecoration: "underline", fontSize: "3em" }}>&lt; marcuskyung &gt;</h1>
-          <EnlargeOnHover>Front End Developer.</EnlargeOnHover>
+          <h1 className="typing-animation"style={{ textDecoration: "underline", fontSize: "3em" }}>Marcus Kyung: Front End Developer</h1>
+          <h2>Seasoned project manager turned front end developer</h2>
+          {/* <EnlargeOnHover>Front End Developer.</EnlargeOnHover>
           <EnlargeOnHover>Project Manager.</EnlargeOnHover>
-          <EnlargeOnHover>Creative.</EnlargeOnHover>
+          <EnlargeOnHover>Creative.</EnlargeOnHover> */}
         </span>
+        <br />
       </HeroContainer>
     </React.Fragment>
   );
