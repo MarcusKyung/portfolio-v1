@@ -1,25 +1,35 @@
 import React from 'react';
 import styled from 'styled-components';
-import ButtonLink from 'react-bootstrap/Button'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const HeroContainer = styled.div`
+  position: relative;
   background-color: #f8f9fa;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family:'Open Sans';
-`;
+  font-family: 'Open Sans';
 
-const EnlargeOnHover = styled.h2`
-  font-size: 2em;
-  transition: transform 0.3s;
-  
+  h1 {
+    text-decoration: underline;
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
 
-  &:hover {
-    transform: scale(1.2);
-    color: #0D6EFD; 
+  h2 {
+    margin-bottom: 40px;
+  }
+
+  .logos-container {
+    position: absolute;
+    bottom: 10rem;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
 `;
 
@@ -27,14 +37,23 @@ export default function Hero() {
   return (
     <React.Fragment>
       <HeroContainer id="home">
-        <span>
-          <h1 className="typing-animation"style={{ textDecoration: "underline", fontSize: "3em" }}>Marcus Kyung: Front End Developer</h1>
+        <div>
+          <h1 className="typing-animation">Marcus Kyung: Front End Developer</h1>
           <h2>Seasoned project manager turned front end developer</h2>
-          {/* <EnlargeOnHover>Front End Developer.</EnlargeOnHover>
-          <EnlargeOnHover>Project Manager.</EnlargeOnHover>
-          <EnlargeOnHover>Creative.</EnlargeOnHover> */}
-        </span>
-        <br />
+        </div>
+        <div className="logos-container">
+          <Row>
+            <Col>
+              <p>Logo 1</p>
+            </Col>
+            <Col>
+              <p>Logo 2</p>
+            </Col>
+            <Col>
+              <p>Logo 3</p>
+            </Col>
+          </Row>
+        </div>
       </HeroContainer>
     </React.Fragment>
   );
